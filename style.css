@@ -1,19 +1,26 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
     font-size: 50px;
 }
 
-.header-container {
-    border-left: 5px solid #FF5959;
+h2 {
+    font-size: 40px;
 }
 
 p {
     font-size: 19px;
     color: rgb(68, 68, 68);
 }
+
+/* banner start */
+.header-container {
+    border-left: 5px solid #FF5959;
+}
+
 
 .banner-header {
     font-family: 'Yeseva One', cursive;
@@ -25,8 +32,9 @@ p {
     color: #FFAD5A;
 }
 
-.banner {
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -49,6 +57,7 @@ p {
 
 .banner-paragraph2 {
     margin-top: 50px;
+    font-size: 17px;
 }
 
 .link-button {
@@ -59,6 +68,13 @@ p {
     margin-bottom: 100px; */
     padding: 13px 35px;
     border-radius: 5px;
+}
+
+/* banner end */
+
+/* my mission start */
+.my-mission {
+    margin-bottom: 100px;
 }
 
 .my-mission-container {
@@ -93,3 +109,141 @@ p {
     background-color: #FFF4D6;
     margin-right: 10%;
 }
+
+/* my mission end */
+
+/* Develop Without Limits start */
+.develop-without-limits {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 3%;
+    background-size: 17%;
+    margin-bottom: 100px;
+
+}
+
+.dwl-img-part {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.dwl-img-part img {
+    width: 88%;
+}
+
+.dwl-article-part {
+    width: 60%;
+    margin-left: 18px;
+    margin-right: 10%;
+}
+
+.dwl-article-part p {
+    padding-bottom: 15px;
+}
+
+/* Develop Without Limits end */
+
+/* Know our Global Community start */
+.kogc {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 14%;
+    background-position-x: 96%;
+    background-position-y: 90%;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+    /* background-position: right;
+    margin-bottom: 100px; */
+
+}
+
+.kogc-article-part {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.kogc-article-part p {
+    padding-bottom: 15px;
+}
+
+.kogc-img-part {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.kogc-img-part img {
+    width: 88%;
+    margin-left: 12%;
+}
+
+/* Know our Global Community end */
+
+/* contact me start */
+#contact-me-img {
+    margin-top: 50px;
+}
+
+.contact-me-paragraph {
+    font-size: 16px;
+}
+
+.contact-me-form {
+    padding-bottom: 30px;
+}
+
+#name {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+#email {
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+#subject {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+#message {
+    margin-bottom: 10px;
+    padding: 10px 10px 85px 10px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+/* contact me end */
+
+/* footer start */
+footer {
+    text-align: center;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 38px;
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
+    color: #EDF5F6;
+    font-weight: 400;
+}
+
+.footer-header-color {
+    color: #FF5959;
+}
+
+footer p {
+    color: #cccbcb;
+    font-size: 14px;
+}
+
+/* footer end */
