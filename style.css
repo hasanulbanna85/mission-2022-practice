@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 52px;
 }
 
 h2 {
@@ -17,28 +17,18 @@ p {
 }
 
 /* banner start */
-.header-container {
-    border-left: 5px solid #FF5959;
-}
 
 
-.banner-header {
-    font-family: 'Yeseva One', cursive;
-    font-size: 60px;
-    margin-left: 15px;
-}
-
-.orange-color {
-    color: #FFAD5A;
-}
-
+/* .banner-header-second-line {
+    margin-top: 30px;
+} */
 .flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
 
 .half-width {
-    width: 50%;
+    width: 40%;
     margin-left: 10%;
 }
 
@@ -46,18 +36,27 @@ p {
     margin-top: 100px;
 }
 
+.header-container {
+    border-left: 5px solid #FF5959;
+}
+
+.banner-header {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.orange-color {
+    color: #FFAD5A;
+}
 
 .half-width img {
-    width: 82%;
+    width: 75%;
 }
 
-.banner-paragraph {
+.article-paragraph {
     margin-bottom: 32px;
-}
-
-.banner-paragraph2 {
-    margin-top: 50px;
-    font-size: 17px;
 }
 
 .link-button {
@@ -70,19 +69,17 @@ p {
     border-radius: 5px;
 }
 
+.banner-paragraph2 {
+    margin-top: 50px;
+    font-size: 17px;
+}
+
 /* banner end */
 
 /* my mission start */
-.my-mission {
-    margin-bottom: 100px;
-}
-
-.my-mission-container {
-    display: flex;
-}
-
 .my-mission h1 {
     text-align: center;
+    margin-top: 0;
 }
 
 .my-mission-sub-part {
@@ -119,8 +116,6 @@ p {
     background-position: left;
     background-position-x: 3%;
     background-size: 17%;
-    margin-bottom: 100px;
-
 }
 
 .dwl-img-part {
@@ -136,10 +131,6 @@ p {
     width: 60%;
     margin-left: 18px;
     margin-right: 10%;
-}
-
-.dwl-article-part p {
-    padding-bottom: 15px;
 }
 
 /* Develop Without Limits end */
@@ -159,25 +150,6 @@ p {
 
 }
 
-.kogc-article-part {
-    width: 60%;
-    margin-left: 10%;
-}
-
-.kogc-article-part p {
-    padding-bottom: 15px;
-}
-
-.kogc-img-part {
-    width: 40%;
-    margin-right: 10%;
-}
-
-.kogc-img-part img {
-    width: 88%;
-    margin-left: 12%;
-}
-
 /* Know our Global Community end */
 
 /* contact me start */
@@ -187,10 +159,6 @@ p {
 
 .contact-me-paragraph {
     font-size: 16px;
-}
-
-.contact-me-form {
-    padding-bottom: 30px;
 }
 
 #name {
@@ -215,7 +183,7 @@ p {
 }
 
 #message {
-    margin-bottom: 10px;
+    margin-bottom: 48px;
     padding: 10px 10px 85px 10px;
     border: 1px solid black;
     border-radius: 0;
